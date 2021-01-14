@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<img src="images/HG.svg" alt="" class="BackgroundImg">
+		<img src="images/MG.svg" alt="" class="BackgroundImg Mountains">
+		<img src="images/VG.svg" alt="" class="BackgroundImg Photographer">
+		<img src="images/BG Hero.svg" alt="" class="BackgroundImg">
+		<img src="images/BG Content.svg" alt="" class="BackgroundImg bottomGradient">
+		<nav class="navbar">
+			<div class="navbar__mntn">MNTN</div>
+			<span class="navbar__span" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+			<div class="navbar__menuMain">
+				<a href="javascript:void(0)" class="navbar__closebtn" onclick="closeNav()">&times;</a>
+				<a href="#" class="navbar__menu">Equipment</a>
+				<a href="#" class="navbar__menu">About us</a>
+				<a href="#" class="navbar__menu">Blog</a>
+			</div>
+			<div class="navbar__menuMainMobile" id="navbarId">
+				<a href="javascript:void(0)" class="navbar__closebtn" onclick="closeNav()">&times;</a>
+				<a href="#" class="navbar__menu">Equipment</a>
+				<a href="#" class="navbar__menu">About us</a>
+				<a href="#" class="navbar__menu">Blog</a>
+			</div>
+			<a href="#" class="navbar__account">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				Account
+			</a>
+		</nav>
+		<div class="fixedBlock">
+			<div class="fixedBlock__socialNetworkMain">
+				<div class="fixedBlock__followUs">Follow us</div>
+				<i class="fixedBlock__socialNetwork fa fa-instagram" aria-hidden="true"></i>
+				<i class="fixedBlock__socialNetwork fa fa-twitter" aria-hidden="true"></i>
+			</div>
+			<div class="fixedBlock__sidebarMain">
+				<a href="#" class="fixedBlock__sidebarLink">Start</a>
+				<a href="#infoBlockOne" class="fixedBlock__sidebarLink">01</a>
+				<a href="#infoBlockTwo" class="fixedBlock__sidebarLink">02</a>
+				<a href="#infoBlockThree" class="fixedBlock__sidebarLink">03</a>
+			</div>
+		</div>
+		<div class="titleBlock">
+			<div class="titleBlock__textBlockMain titleBlock__textBlockMain_header">
+				<div class="titleBlock__yellowText"><div class="titleBlock__line"></div> A Hiking guide</div>
+				<div class="titleBlock__bigText">Be prepared for the Mountains and beyond!</div>
+				<div class="titleBlock__smallText">scroll down <img src="images/arrowdown.svg" style="margin-left: 10px;"></div>
+			</div>
+		</div>
+	</header>
+	<div class="infoBlock" id="infoBlockOne">
+		<div class="infoBlock__textAndImgBlock">
+				<div class="infoBlock__largeNumbers">01</div>
+			<div class="titleBlock__textBlockMain titleBlock__textBlockMain_width">
+				<div class="titleBlock__yellowText"><div class="titleBlock__line"></div>Get Started</div>
+				<div class="titleBlock__bigText titleBlock__bigText_smaller">What level of  hiker are you?</div>
+				<div class="titleBlock__smallText titleBlock__smallText_margin">Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker?</div>
+				<a href="#" class="titleBlock__smallText titleBlock__smallText_yellow">read more<img src="images/arrowright.svg" style="margin-left: 10px;"></a>
+			</div>		
+		</div>
+		<img src="images/01.jpg" alt="" class="infoBlock__trImage">
+	</div>
+
+	<div class="infoBlock" id="infoBlockTwo">
+		<div class="infoBlock__textAndImgBlock infoBlock__textAndImgBlock_order">
+				<div class="infoBlock__largeNumbers">02</div>
+			<div class="titleBlock__textBlockMain titleBlock__textBlockMain_width" style="width: 100%;">
+				<div class="titleBlock__yellowText"><div class="titleBlock__line"></div>Hiking Essentials</div>
+				<div class="titleBlock__bigText titleBlock__bigText_smaller">Picking the right Hiking Gear!</div>
+				<div class="titleBlock__smallText titleBlock__smallText_margin">The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have.Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.</div>
+				<a href="#" class="titleBlock__smallText titleBlock__smallText_yellow">read more<img src="images/arrowright.svg" style="margin-left: 10px;"></a>
+			</div>		
+		</div>
+		<img src="images/02.jpg" alt="" class="infoBlock__trImage infoBlock__trImage_order">
+	</div>
+
+	<div class="infoBlock" id="infoBlockThree">
+		<div class="infoBlock__textAndImgBlock">
+				<div class="infoBlock__largeNumbers">03</div>
+			<div class="titleBlock__textBlockMain titleBlock__textBlockMain_width">
+				<div class="titleBlock__yellowText"><div class="titleBlock__line"></div>Where you go is the key</div>
+				<div class="titleBlock__bigText titleBlock__bigText_smaller">Understand Your Map & Timing</div>
+				<div class="titleBlock__smallText titleBlock__smallText_margin">To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction.</div>
+				<a href="#" class="titleBlock__smallText titleBlock__smallText_yellow">read more<img src="images/arrowright.svg" style="margin-left: 10px;"></a>
+			</div>
+		</div>
+		<img src="images/03.jpg" alt="" class="infoBlock__trImage">
+	</div>
+
+	<footer>
+		<div class="firstColumn">
+			<div class="navbar__mntn">MNTN</div>
+			<div class="titleBlock__textBlockMain titleBlock__textBlockMain_footer2">
+				<div class="titleBlock__smallText titleBlock__smallText_margin">Get out there & discover your next slope, mountain & destination!</div>
+			</div>
+			<div class="firstColumnCopyright">
+				Copyright 2019 MNTN, Inc. Terms & Privacy
+			</div>
+		</div>
+		<div class="otherColumn">
+			<div class="titleBlock__textBlockMain titleBlock__textBlockMain_footer">
+				<div class="titleBlock__yellowText titleBlock__yellowText_footer">More on The Blog</div>
+				<div class="titleBlock__smallText titleBlock__smallText_footer">
+					<a href="#">About MNTN</a>
+					<a href="#">Contributors & Writers</a>
+					<a href="#">Write For Us</a>
+					<a href="#">Contact Us</a>
+					<a href="#">Privacy Policy</a>
+				</div>
+			</div>
+			<div class="titleBlock__textBlockMain titleBlock__textBlockMain_footer">
+				<div class="titleBlock__yellowText titleBlock__yellowText_footer">More on MNTN</div>
+				<div class="titleBlock__smallText titleBlock__smallText_footer">
+					<a href="#">The Team</a>
+					<a href="#">Jobs</a>
+					<a href="#">Press</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+	function openNav() {
+		document.getElementById("navbarId").style.visibility = "visible";
+	}
+
+	function closeNav() {
+		document.getElementById("navbarId").style.visibility = "hidden";
+	}
+	</script>
+
+</body>
+</html>
