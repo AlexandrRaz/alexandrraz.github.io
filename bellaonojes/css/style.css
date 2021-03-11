@@ -1,0 +1,271 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+ul, li {
+  margin: 0;
+  list-style-type: none; }
+
+a {
+  color: #ffffff;
+  text-decoration: none; }
+
+.navMenu {
+  margin-right: 1%;
+  margin-left: 5%; }
+  @media screen and (max-width: 767px) {
+    .navMenu__img {
+      width: 124px; } }
+  .navMenu__item {
+    padding: 0 4%; }
+  .navMenu__link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42; }
+
+.headerBlock {
+  background-image: url("../images/food.svg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding-top: 4%;
+  padding-bottom: 10%; }
+  @media screen and (max-width: 767px) {
+    .headerBlock {
+      background-image: none; } }
+  .headerBlock__smallBoldText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1px; }
+    @media screen and (max-width: 767px) {
+      .headerBlock__smallBoldText {
+        font-size: 16px;
+        line-height: 24px; } }
+    .headerBlock__smallBoldText_white {
+      color: #F7F7F7; }
+      @media screen and (max-width: 767px) {
+        .headerBlock__smallBoldText_white {
+          color: #252B42; } }
+    .headerBlock__smallBoldText_orange {
+      color: #FA4A0C; }
+      @media screen and (max-width: 767px) {
+        .headerBlock__smallBoldText_orange {
+          font-size: 24px;
+          line-height: 26px; } }
+  .headerBlock__bigBoldText {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    /* or 138% */
+    text-align: center;
+    letter-spacing: 0.2px; }
+    .headerBlock__bigBoldText_white {
+      color: #FFFFFF; }
+      @media screen and (max-width: 767px) {
+        .headerBlock__bigBoldText_white {
+          color: #252B42; } }
+    .headerBlock__bigBoldText_preFooter {
+      color: #FFFFFF; }
+    @media screen and (max-width: 767px) {
+      .headerBlock__bigBoldText {
+        font-size: 36px;
+        line-height: 42px; } }
+  .headerBlock__smallWeakText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.2px; }
+    .headerBlock__smallWeakText_white {
+      color: #F7F7F7; }
+      @media screen and (max-width: 767px) {
+        .headerBlock__smallWeakText_white {
+          color: #252B42; } }
+    .headerBlock__smallWeakText_instr {
+      text-align: left; }
+      @media screen and (max-width: 990px) {
+        .headerBlock__smallWeakText_instr {
+          text-align: center; } }
+    .headerBlock__smallWeakText_preFooter {
+      color: #FFFFFF; }
+  .headerBlock__button {
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    background: #FA4A0C;
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    width: 236px;
+    height: 68px;
+    margin: 1% 1%; }
+    .headerBlock__button:hover {
+      transition: 0.4s;
+      text-decoration: none;
+      color: #FFFFFF;
+      box-shadow: 0px 10px 30px #fa4a0c; }
+    .headerBlock__button_white {
+      background-color: transparent;
+      border: 1px solid #FFFFFF;
+      box-sizing: border-box; }
+      @media screen and (max-width: 767px) {
+        .headerBlock__button_white {
+          color: #FA4A0C;
+          border: 1px solid #FA4A0C; } }
+    .headerBlock__button_preFooter {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0.2px;
+      color: #FFFFFF;
+      width: 137px;
+      height: 64px;
+      background: #FA4A0C;
+      border-radius: 10px;
+      margin: 0px 16px; }
+    .headerBlock__button_preFooterWhite {
+      background: transparent;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0.2px;
+      color: #FFFFFF;
+      width: 186px;
+      height: 64px;
+      border: 1px solid #FFFFFF;
+      box-sizing: border-box;
+      border-radius: 10px;
+      margin: 0px 16px; }
+
+.img2phonesBlock {
+  margin-top: -21%;
+  margin-left: -4%; }
+  @media screen and (min-width: 1440px) {
+    .img2phonesBlock {
+      margin-top: -16%;
+      margin-left: -4%; } }
+  @media screen and (max-width: 1024px) {
+    .img2phonesBlock {
+      margin-top: -25%;
+      margin-left: -5%; } }
+  @media screen and (max-width: 768px) {
+    .img2phonesBlock {
+      margin-top: -29%;
+      margin-left: -6%; } }
+  @media screen and (max-width: 768px) {
+    .img2phonesBlock__img {
+      width: 100%; } }
+
+.line {
+  background-color: #E4E4E4;
+  border: 2px solid #E4E4E4;
+  width: 65%; }
+  @media screen and (max-width: 768px) {
+    .line {
+      margin-bottom: 8%;
+      width: 100%; } }
+
+.titleBlock {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #000000;
+  opacity: 0.8;
+  margin-top: 8%; }
+  @media screen and (max-width: 1024px) {
+    .titleBlock {
+      margin-bottom: 8%; } }
+  @media screen and (max-width: 768px) {
+    .titleBlock {
+      font-size: 24px;
+      line-height: 36px; } }
+
+.instructionBlock {
+  width: 80%;
+  margin: 0 8%; }
+  @media screen and (max-width: 1024px) {
+    .instructionBlock {
+      width: 96%;
+      margin: 0 2%; } }
+  .instructionBlock__img {
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15)); }
+  .instructionBlock__textBlock {
+    width: 50%; }
+    @media screen and (max-width: 768px) {
+      .instructionBlock__textBlock {
+        width: 90%; } }
+  .instructionBlock__bigText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42; }
+    @media screen and (max-width: 1024px) {
+      .instructionBlock__bigText {
+        text-align: center; } }
+
+.preFooterBlock {
+  background-image: url("../images/food2.svg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding-top: 4%;
+  padding-bottom: 10%; }
+  @media screen and (max-width: 767px) {
+    .preFooterBlock {
+      background: #252B42; } }
+
+.socialsBlock {
+  width: 170px;
+  height: 40px; }
+
+.socials {
+  color: #FA4A0C;
+  font-size: 36px; }
+  .socials:hover {
+    text-decoration: none;
+    color: #FFFFFF; }
+
+.footerText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  letter-spacing: 0.1px;
+  color: #5C5C5C;
+  width: 200px; }
+
+/*# sourceMappingURL=style.css.map */

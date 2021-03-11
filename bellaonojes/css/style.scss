@@ -1,0 +1,315 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+ul, li {
+	margin: 0;
+	list-style-type: none;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.navMenu{
+	margin-right: 1%;
+	margin-left: 5%;
+	&__img{
+		@media screen and (max-width: 767px) {
+		& {
+			width: 124px;} }
+	}
+	&__buttonMobile{
+
+	}
+	&__menu {
+
+	}
+	&__item {
+		padding: 0 4%;
+	}
+	&__link {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 28px;
+		text-align: center;
+		letter-spacing: 0.2px;
+		color: #252B42;
+	}
+}
+
+.headerBlock {
+	background-image: url("../images/food.svg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	padding-top: 4%;
+	padding-bottom: 10%;
+	@media screen and (max-width: 767px) {
+		& {
+			background-image: none;} }
+	&__smallBoldText {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 36px;
+		text-align: center;
+		letter-spacing: 0.1px;
+		@media screen and (max-width: 767px) {
+			& {
+				font-size: 16px;
+				line-height: 24px;} }
+		&_white{
+			color: #F7F7F7;
+			@media screen and (max-width: 767px) {
+			& {
+				color: #252B42;} }
+		}
+		&_orange{
+			color: #FA4A0C;
+			@media screen and (max-width: 767px) {
+			& {
+				font-size: 24px;
+				line-height: 26px;} }
+		}
+		
+	}
+	&__bigBoldText {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 58px;
+		line-height: 80px;
+		/* or 138% */
+
+		text-align: center;
+		letter-spacing: 0.2px;
+		&_white{
+			color: #FFFFFF;
+			@media screen and (max-width: 767px) {
+			& {
+				color: #252B42;} }
+		}
+		&_preFooter{
+			color: #FFFFFF;
+		}
+		@media screen and (max-width: 767px) {
+			& {
+				font-size: 36px;
+				line-height: 42px;} }
+	}
+	&__smallWeakText {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 38px;
+		text-align: center;
+		letter-spacing: 0.2px;
+		&_white{
+			color: #F7F7F7;
+			@media screen and (max-width: 767px) {
+			& {
+				color: #252B42;} }
+		}
+		&_instr{
+			text-align: left;
+			@media screen and (max-width: 990px) {
+			& {
+				text-align: center;} }
+		}
+		&_preFooter{
+			color: #FFFFFF;
+		}
+	}
+	&__buttonsBlock {}
+	&__button {
+		box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+		background: #FA4A0C;
+		border-radius: 30px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 36px;
+		letter-spacing: 0.1px;
+		color: #FFFFFF;
+		width: 236px;
+		height: 68px;
+		margin: 1% 1%;
+		&:hover{
+			transition: 0.4s;
+			text-decoration: none;
+			color: #FFFFFF;
+			box-shadow: 0px 10px 30px rgba(250, 74, 12, 1.2);
+		}
+		&_white{
+			background-color: transparent;
+			border: 1px solid #FFFFFF;
+			box-sizing: border-box;
+			@media screen and (max-width: 767px) {
+			& {
+				color: #FA4A0C;
+				border: 1px solid #FA4A0C;} }
+		}
+		&_preFooter{
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 28px;
+			letter-spacing: 0.2px;
+			color: #FFFFFF;
+			width: 137px;
+			height: 64px;
+			background: #FA4A0C;
+			border-radius: 10px;
+			margin: 0px 16px;
+		}
+		&_preFooterWhite{
+			background: transparent;
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 28px;
+			letter-spacing: 0.2px;
+			color: #FFFFFF;
+			width: 186px;
+			height: 64px;
+			border: 1px solid #FFFFFF;
+			box-sizing: border-box;
+			border-radius: 10px;
+			margin: 0px 16px;
+		}
+	}
+}
+
+.img2phonesBlock {
+	margin-top: -21%;
+	margin-left: -4%;
+	@media screen and (min-width: 1024px) {
+		& {
+			margin-top: -16%;
+			margin-left: -4%;} }
+	@media screen and (max-width: 1024px) {
+		& {
+			margin-top: -25%;
+			margin-left: -5%;} }
+	@media screen and (max-width: 768px) {
+		& {
+			margin-top: -29%;
+			margin-left: -6%;} }
+	&__img{
+		@media screen and (max-width: 768px) {
+		& {
+			width: 100%} }
+	}
+
+}
+.line {
+	background-color: #E4E4E4;
+	border: 2px solid #E4E4E4;
+	width: 65%;
+	@media screen and (max-width: 768px) {
+		& {
+			margin-bottom: 8%;
+			width: 100%;} }
+}
+
+.titleBlock{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 44px;
+	line-height: 36px;
+	letter-spacing: 0.1px;
+	color: #000000;
+	opacity: 0.8;
+	margin-top: 8%;
+	@media screen and (max-width: 1024px) {
+		& {
+			margin-bottom: 8%;} }
+	@media screen and (max-width: 768px) {
+		& {
+			font-size: 24px;
+			line-height: 36px;} }
+}
+
+.instructionBlock {
+	width: 80%;
+	margin: 0 8%;
+	@media screen and (max-width: 1024px) {
+		& {
+			width: 96%;
+			margin: 0 2%;} }
+	&__img {
+		filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+	}
+	&__textBlock {
+		width: 50%;
+		@media screen and (max-width: 768px) {
+		& {
+			width: 90%;} }
+	}
+	&__bigText {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		line-height: 57px;
+		letter-spacing: 0.2px;
+		color: #252B42;
+		@media screen and (max-width: 1024px) {
+		& {
+			text-align: center;} }
+	}
+}
+
+.preFooterBlock {
+	background-image: url("../images/food2.svg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	padding-top: 4%;
+	padding-bottom: 10%;
+	@media screen and (max-width: 767px) {
+		& {
+			background: #252B42;} }
+}
+
+.socialsBlock {
+	width: 170px;
+	height: 40px;
+}
+
+.socials {
+	color: #FA4A0C; font-size: 36px;
+	&:hover{
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+}
+
+.footerText{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: right;
+	letter-spacing: 0.1px;
+	color: #5C5C5C;
+	width: 200px;
+}
